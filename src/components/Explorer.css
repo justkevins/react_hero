@@ -1,0 +1,43 @@
+/* Explorer.css */
+.explorer-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    max-height: calc(100vh - 40px);
+    width: 300px;
+    overflow-y: auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .explorer-container h3 {
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .explorer-item {
+    cursor: pointer;
+    padding: 8px 8px 8px 28px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .explorer-item:hover {
+    background-color: rgba(39, 39, 39, 0.7);
+  }
+  
+  .toggle-icon {
+    color: #fff;
+    margin-right: 5px;
+  }
+  
+  .item-name {
+    color: #fff;
+  }
+  
